@@ -9,13 +9,13 @@
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"	integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-			<!-- wersjonowanie [likow css - https://wordpress.stackexchange.com/a/293495 -->
+			<!-- wersjonowanie likow css - https://wordpress.stackexchange.com/a/293495 -->
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/my_css/index.css?ver=<?php echo time(); ?>">
 
 			<title>uczymysiewardpressa</title>
     </head>
     <body>
-		<img src="<?php echo get_template_directory_uri();?>/img/IMAG1741.jpg" width="1400" height="800">
+		<img src="<?php echo get_template_directory_uri();?>/img/IMAG1741.jpg" width="1000" height="700">
 			<div class="conteiner wrap">
 				<nav class="navbar navbar-dark bg-primary back_nav navbarposition">
 					<button class="btn"><i class="fa fa-home"></i></button>
@@ -73,7 +73,7 @@
 						<div id="f1_conteiner">
 							<div id="f1_card" class="shadow">
 								<div class="front face">
-									<img src="<?php echo get_template_directory_uri();?>/img/IMAG1677_wm.jpg" width="480" height="240">
+									<img src="<?php echo get_template_directory_uri();?>/img/IMAG1677_wm.jpg" width="400" height="220">
 								</div>
 								<div class="back face center">
 									<p>This is nice for exposing more information about an image.</p>
@@ -83,13 +83,14 @@
 						</div>
 	
 					</div>
-					<div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/img/IMAG1684_wm.jpg" width="480" height="240"></div>
-					<div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/img/IMAG1691_wm.jpg" width="480" height="240"></div>
+					<div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/img/IMAG1684_wm.jpg" width="400" height="220"></div>
+					<div class="col-md-4"><img src="<?php echo get_template_directory_uri();?>/img/IMAG1691_wm.jpg" width="480" height="220"></div>
 				</div>
 			</div>
 			<div class="imgheader"> 
 				<div class="imgbackground">
-					<p>jdnkjnsfgknxflkzbnzxjfbnkcnklfnkljlknklnjkxzcn nnlkngklncxkjbnkjxznblkxzcnbl jnkjzcxnjkbnzcxkjb</p>
+					<li><p>jdnkjnsfgknxflkzbnzxjfbnkcnklfnkljlknklnjkxzcn<li>
+					<li> nnlkngklncxkjbnkjxznblkxzcnbl jnkjzcxnjkbnzcxkjb<li></p>
 				</div>
 			</div>
     </body>
