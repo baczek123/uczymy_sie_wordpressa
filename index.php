@@ -10,8 +10,11 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"	integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!-- wersjonowanie likow css - https://wordpress.stackexchange.com/a/293495 -->
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/my_css/index.css?ver=<?php echo time(); ?>">
+		<!-- dodanie ściezki do pliku css za pomocą metody get_template_directory_uri
+				najlepiej jednak przenieść to do funkcji niż wielkokrotnie importować style w html -->
+		<!--link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/my_css/index.css?ver=<?php echo time(); ?>"-->
+		<!-- import całego heada -->
+		<?php wp_head(); ?>
     </head>
     <body>
 		<img src="<?php echo get_template_directory_uri();?>/img/IMAG1741.jpg" width="1000" height="700">
