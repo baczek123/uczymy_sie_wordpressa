@@ -57,15 +57,17 @@ left:1cm;
 }
 
 .imgheader {
-    height: 200px;
-    line-height: 45x;
-    padding: 5px;    
+  height: 575px;
+  line-height: 68px;
+  padding: 60px;
+  width: 271px;
 }
 
 .imgbackground{
-    background-image: url("../img/IMAG1684_wm.jpg");
+    background-image: url("../img/hp-elitebook-1030-business-laptop-notebook.jpg");
     display: inline-block;
-	size: auto;
+    width: 780px;
+    height: 510px;
     padding-left: 30px; /* This */
     background-repeat: no-repeat; /* And This One */
 }
