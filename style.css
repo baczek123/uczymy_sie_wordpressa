@@ -1,5 +1,36 @@
-// TODO
+/* ------------------------------------------------------------- 
+to jest plik który opisuje szablon wordpressa
+szablon składa się z plików
+*style.css
+*index.php
+
+style.css – to najważniejszy, i jako jedyny wymagany plik w motywie. To w nim znajduje się nagłówek informujący WordPress o nazwie, wersji i autorze motywu. Znajdują się w nim również wszystkie reguły definiujące wygląd strony.
+Plik index.php to drugi bardzo ważny plik motywu WordPress. Właściwie, mając odpowiednio napisaną strukturę strony w tym pliku i arkusz styli CSS (style.css) jesteśmy w stanie uruchomić pełnoprawną stronę niczym nie odbiegającą od tych zbudowanych na kilkudziesięciu plikach. Różnica polegałaby wyłącznie na tym, że musielibyśmy więcej i częściej posiłkować się instrukcjami warunkowymi, żeby lepiej spersonalizować wyświetlanie treści na podstronach. Oczywiście takie podejście nie jest polecane. Znacznie łatwiej edytuje się krótkie pliki, a dzięki wyspecjalizowanej i modularnej budowie możliwe będzie ich wykorzystanie w kolejnych projektach.
+
+index.php możemy potraktować jako nadrzędny plik, w którym znajdują się instrukcje wczytujące pozostałe składowe bloga (header, sidebar, footer), oraz główna pętla wyświetlająca wpisy bloga. Jeżeli nie ustaliliśmy inaczej, to index.php będzie wykorzystany jako pierwszy po przejściu na stronę główną bloga.
+https://wpadmin.pl/pliki-szablonu-wordpress/
+
+możliwe tagi:
+https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
+-------------------------------------------------------------
+*/
 
 /*
-theme name: uczymysiewardpressa
+Theme Name: uczymy sie wordpressa
+Theme URI: https://wordpress.org/themes/uczymysiewordpressa/
+Author: deadpol group
+Author URI: [some url]
+Description: [description]
+Version: 1.0
+License: [licence]
+License URI: [something]
+Text Domain: uczymysiewardpressa
+Tags: [tag1, tag2]
+To jest przykładowa szablona WordPressa i tak wyglada opis tego szablonu
+jak zrobic taki opis jest równiez na filmie:
+https://youtu.be/oTRZYnYQlmo?list=PLriKzYyLb28nUFbe0Y9d-19uVkOnhYxFE&t=1002
 */
+
+.screenshot {
+    background-image: url('screenshot.jpg');
+}
