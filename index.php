@@ -50,7 +50,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<div id="f1_conteiner">
+					<div id="f1_container">
 						<div id="f1_card" class="shadow">
 							<div class="front face">
 								<img src="<?php echo get_template_directory_uri();?>/img/IMAG1677_wm.jpg" width="400" height="220">
