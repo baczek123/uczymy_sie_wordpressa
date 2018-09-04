@@ -161,14 +161,14 @@
 			</form>	
 			<form class="form">
 				<div class="form-group">
-					<label for="phoneField">Telefon</lable>
+					<label for="phoneField">Telefon</label>
 					<input typ="text" class="form-control" id="phoneField" placeholder="Twój numer telefonu" />
 				</div>
 			</form>	
 			<form class="form">
 				<div class="form-group">
-					<label for="descField">Opis</lable>
-					<textera class="form-control" id="descField" placeholder="Twoje uwagi"></textera>
+					<label for="descField">Opis</label>
+					<textaera class="form-control" id="descField" placeholder="Twoje uwagi"></textaera>
 				</div>
 				<button type="submit" class="btn btn-primary">WySlij</button> <button type="reset" class="btn btn-default">Wyczyść</button>
 			</form>
