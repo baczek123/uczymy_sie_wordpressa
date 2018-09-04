@@ -71,3 +71,7 @@ left:1cm;
     padding-left: 30px; /* This */
     background-repeat: no-repeat; /* And This One */
 }
+
+.image_size {
+  width: 380px;
+}
