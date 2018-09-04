@@ -149,13 +149,13 @@
 		<div>
 			<form class="form">
 				<div class="form-group">
-					<label for="nameField">Imie</lable>
+					<label for="nameField">Imie</label>
 					<input typ="text" class="form-control" id="nameField" placeholder="Twoje imie" />
 				</div>
 			</form>
 			<form class="form">
 				<div class="form-group">
-					<label for="emailField">E-mail</lable>
+					<label for="emailField">E-mail</label>
 					<input typ="text" class="form-control" id="emailField" placeholder="Twój adres" />
 				</div>
 			</form>	
