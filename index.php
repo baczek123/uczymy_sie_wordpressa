@@ -14,7 +14,9 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/my_css/index.css?ver=<?php echo time(); ?>">
     </head>
 	<body>
+			<div clas="imgbackground">
 				<h1>JEDZIEMY W ŚWIAT</h1>
+			</div>
 				<img src="<?php echo get_template_directory_uri();?>/img/IMAG1741.jpg" width="1000" height="500">
 				<h1>MALTA - CO WARTO WIEDZIEĆ</h1>
 
