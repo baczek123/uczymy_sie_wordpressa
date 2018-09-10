@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/my_css/index.css?ver=<?php echo time(); ?>">
     </head>
     <body>
-			<script href="<?php echo get_template_directory_uri();?>/my_css/index.css?ver=<?php echo time(); ?>"<script>
+		<script src="<?php echo get_template_directory_uri();?>/my_js/index.js?ver=<?php echo time(); ?>"></script>
     </body>
 	<footer>
 	
