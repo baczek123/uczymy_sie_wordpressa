@@ -22,6 +22,8 @@ font-size: 16px;
 
 h1{
 text-align: center;
+font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 50px;
 }
 
 .img2 {
@@ -36,15 +38,29 @@ margin: 0 0 15px 10px;
 
 #block5 {
 margin: 10px 0px 10px 0;
+background-color:rgb(49, 196, 49);
 }
 
 #block4 {
-    width: 400px;
     background-color: rgb(230, 63, 63);
-    text-align: center;
-    margin: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .imgbackground{
-    background-image: url("../img/IMAG1741.jpg" width="1000" height="500");
-{
+    background-image: url("../img/IMAG1741.jpg");
+    width: 1000px;
+    height: 500px;
+    display: inline-block;
+}
+
+#block6 {
+    background-color: rgb(190, 92, 35);
+ }
+
+ #block7 {
+    background-color: rgb(116, 96, 230);
+ }
+
+ #block8 {
+    background-color: rgb(199, 78, 193);
+ }
