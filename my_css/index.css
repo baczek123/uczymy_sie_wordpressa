@@ -1,34 +1,34 @@
 p {
-text-align: justify;
+    text-align: justify;
 }
 
 #block1 {
-background-color: rgb(49, 184, 166)
+    background-color: rgb(49, 184, 166);
 }
 
 #block2 {
-background-color: rgb(13, 150, 13)
+    background-color: rgb(13, 150, 13);
 }
 
 #block3 {
-background-color: rgb(228, 15, 33)
+    background-color: rgb(228, 15, 33);
 }
 body {
-width: 1000px;
-margin: 0 auto;
-background-color: rgb(182, 182, 14);
-font-size: 16px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(182, 182, 14);
+    font-size: 16px;
 }
 
 h1{
-text-align: center;
-font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 50px;
+    text-align: center;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
 }
 
 .img2 {
-float: right;
-margin: 0 0 15px 10px;
+    float: right;
+    margin: 0 0 15px 10px;
 }
 
 .img3 {
@@ -37,8 +37,8 @@ margin: 0 0 15px 10px;
 }
 
 #block5 {
-margin: 10px 0px 10px 0;
-background-color:rgb(49, 196, 49);
+    margin: 10px 0px 10px 0;
+    background-color:rgb(49, 196, 49);
 }
 
 #block4 {
@@ -51,16 +51,17 @@ background-color:rgb(49, 196, 49);
     width: 1000px;
     height: 500px;
     display: inline-block;
+    background-size: cover;
 }
 
 #block6 {
     background-color: rgb(190, 92, 35);
- }
+}
 
  #block7 {
     background-color: rgb(116, 96, 230);
- }
+}
 
- #block8 {
+#block8 {
     background-color: rgb(199, 78, 193);
- }
+}
