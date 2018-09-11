@@ -32,25 +32,25 @@
 		</div>
 
 		<div class="block_img1">
-			<img class="img2" src="<?php echo get_template_directory_uri();?>/img/IMAG1821_wm.jpg" width="480" height="360">
-			<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1849_wm.jpg" width="480" height="360">
+			<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1821_wm.jpg" width="480" height="360">
+			<img class="img4" src="<?php echo get_template_directory_uri();?>/img/IMAG1849_wm.jpg" width="480" height="360">
 		</div>
 		<div id="block4">
 			<p>Jeśli macie już dosyć leżenia na pisku, polecam się przejść na pieszo pomiędzy tymi trzema plażami. Wymaga to lekkiej wspinaczki na klify otaczające właśnie te plaże, ale widok który nas tam czeka jest tego warty.</p>
 		</div>
 		
-		<img class="img2" src="<?php echo get_template_directory_uri();?>/img/IMAG1839_wm.jpg" width="480" height="360">
-		<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1863_wm.jpg" width="480" height="360">
+		<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1839_wm.jpg" width="480" height="360">
+		<img class="img4" src="<?php echo get_template_directory_uri();?>/img/IMAG1863_wm.jpg" width="480" height="360">
 				
 		<div id="block5">
-			<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1677_wm.jpg" width="360" height="210">
+			<img class="img5" src="<?php echo get_template_directory_uri();?>/img/IMAG1677_wm.jpg" width="360" height="210">
 			<p>Malta posiada wiele cudownych miejsc bardzo często opisywanych w przewodnikach jako atrakcja wyspy. Jednak miejscem, które zrobiło na mnie naprawdę duże wrażenie ( a nie jest zbyt popularne i nie jest wymieniane jako główna atrakcja Malty ) jest St. Peters Pool. Dotrzeć można tam jadąc do miejscowości Marsaxlokk. Jest to wioska rybacka słynąca z kolorowych łódek rybackich z wymalowanymi oczami na ich burtach. Jednak żeby dojść do St. Peter’s Pool trzeba opuścić miasteczko i przejść na drugą część półwyspu znajdującego się przy tej miejscowości. St. Peter’s Pool jest małą zatoczką wydrążoną  w skale gdzie fale w majestatyczny sposób rozbijają się o skały. Będąc w okresie w którym tam byłem, spotkałem w tym miejscu bardzo małą ilość turystów. Niewielu ludzi albo wie albo decyduje się iść w to miejsce, co sprawia że w bardzo dużym spokoju można eksplorować tę zatokę.</p>
 		</div>	
 		<div id="block6">
 			<p>Dodatkowo można lekko obejść z prawej strony tą zatoczkę i wyjść na skalistą plaże, na której jest wiele ciekawych kamiennych formacji.</p>
 		</div>
-		<img class="img2" src="<?php echo get_template_directory_uri();?>/img/IMAG1691_wm.jpg" width="480" height="360">
-		<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1684_wm.jpg" width="480" height="360">
+		<img class="img3" src="<?php echo get_template_directory_uri();?>/img/IMAG1691_wm.jpg" width="480" height="360">
+		<img class="img4" src="<?php echo get_template_directory_uri();?>/img/IMAG1684_wm.jpg" width="480" height="360">
 		<div id="block7">
 			<p>Będąc na Malcie warto też odwiedzić poboczne wyspy Gozo i Comino. Ja osobiście wybrałem się tam wraz z wycieczką kupioną w porcie, która gwarantowała zwiedzanie Wyspy Gozo i wolny czas na Błękitnej Lagunie na wyspie Comino. Jednak teraz po tym jak skorzystałem z tej opcji nie polecam jej. Wyspa Gozo jest na tyle ciekawa że warto zwiedzać ją przez cały dzień. Płynąć wraz z wycieczką statkiem, po dopłynięciu na wyspę jesteśmy wiezieni z jednego miejsca na drugie podczas trzy godzinnej objazdówki. W ten sposób widzimy największe atrakcje Gozo jednak są tam miejsca, w których lepiej spędzić więcej czas. Do niedawna najbardziej rozpoznawalnym miejscem na tej wyspie było Azure Window, jednak w marcu 2017r. roku ten piękny łuk skalny zawalił się do morza. Z Malty na Gozo można przepłynąć na własną rękę promem z Cirkewwa Ferry Terminal.</p>
 			<p>Podobnie jest z odwiedzeniem Blue Lagune, na wyspie Comino. Podczas wycieczki całodniowej kiedy zwiedzamy obie wyspy, na pobyt na Comino mamy tylko półtora godziny. Blue Lagune jest cudownym miejscem w którym zdecydowanie warto spędzić więcej czasu.  Codziennie przypływa tam bardzo dużo turystów, od rana zajmują najlepsze miejsca wypoczynkowe. Warto wybrać się w to miejsce wcześniej, a płyną tam wodne taksówki którymi można dotrzeć rankiem i wrócić w momencie kiedy uznamy że mamy na to ochotę.</p>

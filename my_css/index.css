@@ -4,19 +4,25 @@ p {
 
 #block1 {
     background-color: rgb(49, 184, 166);
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 #block2 {
     background-color: rgb(13, 150, 13);
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 #block3 {
     background-color: rgb(228, 15, 33);
+    padding: 5px;
+    margin-bottom: 15px;
 }
 body {
     width: 1000px;
     margin: 0 auto;
-    background-color: rgb(182, 182, 14);
+    background-color: rgb(236, 240, 0);
     font-size: 16px;
 }
 
@@ -31,7 +37,7 @@ h1{
     margin: 0 0 15px 10px;
 }
 
-.img3 {
+.img5 {
     float: left;
     margin: 0 10px 15px 0px;
 }
@@ -39,11 +45,15 @@ h1{
 #block5 {
     margin: 10px 0px 10px 0;
     background-color:rgb(49, 196, 49);
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 #block4 {
     background-color: rgb(230, 63, 63);
-    margin: 10px 0 10px 0;
+    margin:0 auto 15px;
+    width:540px;
+    padding: 5px; 
 }
 
 .imgbackground{
@@ -56,12 +66,27 @@ h1{
 
 #block6 {
     background-color: rgb(190, 92, 35);
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
  #block7 {
     background-color: rgb(116, 96, 230);
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
 #block8 {
     background-color: rgb(199, 78, 193);
+    padding: 5px;
+    margin: 15px 0;
 }
+
+.img3 {
+    margin: 0 35px 15px 0px;
+}
+
+.img4 {
+    margin: 0 0px 15px 0px;
+}
+
