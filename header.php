@@ -1,12 +1,4 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Uczymy sie Wordpressa</title>
-<?php wp_head(); ?>
-</head>
-
-<?php
+<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
     if( is_front_page() ):
         $uczymy_classes = array( 'uczymu-class', 'my-class' );
     else:
