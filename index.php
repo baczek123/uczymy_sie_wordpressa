@@ -29,13 +29,14 @@ echo "$xy";
 
 <?php
 if(5==5)
-
+{
     echo "5";
+}
 
 endif(6==6)
-
+{
     echo "6"
-
+}
 endif(7==7)
 {
     echo "7"
