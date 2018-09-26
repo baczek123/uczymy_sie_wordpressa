@@ -24,7 +24,7 @@
                                 'type' => 'post',
                                 'posts_per_page' => 1,
                                 'category_in' => $category->term_id,
-                                'category_not_include' => ( 1 ),
+                                
                             );
 
                             $lastBlog = new WP_Query( $args );
