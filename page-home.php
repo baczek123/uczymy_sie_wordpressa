@@ -12,7 +12,7 @@
                     <?php
      
                         $args_cat = array(
-                            'include' => '7,8,9'
+                            'include' => '7, 8, 9'
                         );
 
                         $categories = get_categories($args_cat);
@@ -24,7 +24,7 @@
                                 'type' => 'post',
                                 'posts_per_page' => 1,
                                 'category_in' => $category->term_id,
-                                'category_not_in' => array( 1 ),
+                                'category_not_include' => ( 1 ),
                             );
 
                             $lastBlog = new WP_Query( $args );
@@ -36,7 +36,7 @@
                                     while( $lastBlog->have_posts() ): $lastBlog->the_post(); ?>
 
                                         <div class="item <?php if($count == 0): echo 'active'; endif; ?>">
-                                            <?php the_post_thumbnail('thumbnail'); ?>
+                                            <?php the_post_thumbnail('full'); ?>
                                             
                                             <div class="carousel-caption">
                                                 <?php the_title( sprintf('<h1 class="entry-title"><a href="%s">',esc_url( get_permalink() ) ),'</a></h1>' ); ?>
@@ -45,7 +45,11 @@
                                             </div>
                                         </div>
 
-                                        <?php $bullets .='<li data-target="#uczymy-carousel" data-slide-to="0" class="active"></li>'; ?>
+                                        <?php $bullets .='<li data-target="#uczymy-carousel" data-slide-to="'.$count.'" class="' ?> 
+                                        
+                                        <?php if($count == 0): $bullets .='active'; endif; ?>
+
+                                        <?php $bullets .= '"></li>'; ?>
 
                                     <?php  endwhile;
 
