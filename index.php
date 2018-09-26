@@ -1,16 +1,25 @@
 <?php get_header(); ?>
 
-	<?php 
-	if( have_posts() ):
-		while( have_posts() ): the_post(); echo 'TO JEST FORMAT: '.get_post_format(); ?>
+<div clas="row">
+	<div class="col-xs-12 col-sm-8">
 
-			<?php get_template_part('content', get_post_format()); ?>
+		<?php 
+		if( have_posts() ):
+			while( have_posts() ): the_post(); echo 'TO JEST FORMAT: '.get_post_format(); ?>
+
+				<?php get_template_part('content', get_post_format()); ?>
 
 
-		<?php endwhile;
+			<?php endwhile;
 
-	endif;
+		endif;
 
-	?>
+		?>
+	</div>
+	<div class="col-xs-12 col-sm-4">
+		<?php get_sidebar(); ?>
+	</div>
+
+
 
 <?php get_footer(); ?>
