@@ -1,4 +1,10 @@
-.carousel .item 
-{
-height: 300px; overflow: hidden;
-}
+.carousel { background: #000; }
+.carousel .item { height: 200px; overflow: hidden; }
+.carousel .item img {width: 100%; height: auto; margin-top: -35%; }
+.carousel-caption a { color: rgb(133, 14, 14)}
+.blog-element a { color: rgb(179, 6, 6)}
+
+.blog-element { display: block; height: 200px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
+
+.seccond-row-padding: first-child { padding-right: 0; }
+.seccond-row-padding last-child { paddding-left: 0; } 

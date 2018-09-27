@@ -9,15 +9,15 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
 
-                    <?php
-     
+                    <?php 
+                        
                         $args_cat = array(
                             'include' => '7, 8, 9'
                         );
 
                         $categories = get_categories($args_cat);
                         $count = 0;
-                        $bullets = ''; 
+                        $bullets = ' '; 
                         foreach($categories as $category):
 
                             $args = array(
@@ -106,6 +106,7 @@
             'offset' => 1,
 
         );
+        
         $lastBlog = new WP_Query($args);
 
             if( $lastBlog->have_posts() ):
