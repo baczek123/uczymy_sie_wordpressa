@@ -28,7 +28,7 @@ echo "$xy";
 ?>
 
 <?php
-if(5==6)
+if(4==6)
 {
     echo "5";
 }
@@ -38,7 +38,7 @@ elseif(6==7)
     echo "6";
 }
 
-elseif (7==8)
+elseif (7==7)
 {
     echo "7";
 }
@@ -74,6 +74,6 @@ echo $i;
 
 <?php
 $Imiona=array('Jakub', 'Paweł', 'Sara', 'Michał', 'Maciej', 'Iwona', 'Konstanty' );
-echo $Imiona[4];
+echo $Imiona[3];
 ?>
 
