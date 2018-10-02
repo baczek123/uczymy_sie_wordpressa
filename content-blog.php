@@ -1,7 +1,7 @@
 <div class="col-xs-<?php echo $column; ?>"> 
 	<?php if( has_post_thumbnail() ): ?>
 
-		<div class="thumbnail"><?php the_post_thumbnail('thumbnail'); ?></div>
+	<div class="thumbnail"><?php the_post_thumbnail('thumbnail'); ?></div>
 								
 	<?php endif; ?>
 
