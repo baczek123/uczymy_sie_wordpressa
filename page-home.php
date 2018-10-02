@@ -2,7 +2,7 @@
 
 <div clas="row">
 
-   
+        <div class="col-xs-12">
 
         <div id="uczymy-carousel" class="carousel slide" data-ride="carousel">
         
@@ -12,7 +12,7 @@
                     <?php 
                         
                         $args_cat = array(
-                            'include' => '7, 8, 9'
+                             '7, 8, 9'
                         );
 
                         $categories = get_categories($args_cat);
@@ -24,6 +24,7 @@
                                 'type' => 'post',
                                 'posts_per_page' => 1,
                                 'category_in' => $category->term_id,
+                                'category_not_in' => array( 1 ),
                                 
                             );
 
@@ -41,11 +42,11 @@
                                             <div class="carousel-caption">
                                                 <?php the_title( sprintf('<h1 class="entry-title"><a href="%s">',esc_url( get_permalink() ) ),'</a></h1>' ); ?>
     
-                                                <small><?php the_category(); ?></small>
+                                                <small><?php the_category(' '); ?></small>
                                             </div>
                                         </div>
 
-                                        <?php $bullets .='<li data-target="#uczymy-carousel" data-slide-to="'.$count.'" class="' ?> 
+                                        <?php $bullets .='<li data-target="#uczymy-carousel" data-slide-to="'.$count.'" class="'; ?> 
                                         
                                         <?php if($count == 0): $bullets .='active'; endif; ?>
 
@@ -79,6 +80,7 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div>
         </div>
 </div>
 <div class="row">
@@ -90,7 +92,6 @@
 			while( have_posts() ): the_post(); ?>
 
 				<?php get_template_part('content', get_post_format()); ?>
-
 
 			<?php endwhile;
 
@@ -146,10 +147,10 @@
         */
         ?>
 
-            </div>
-            <div class="col-xs-12 col-sm-4">
-                <?php get_sidebar(); ?>
-            </div>
+    </div>
+        <div class="col-xs-12 col-sm-4">
+            <?php get_sidebar(); ?>
+        </div>
 
 </div>
 

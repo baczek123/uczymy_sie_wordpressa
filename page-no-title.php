@@ -15,8 +15,12 @@ get_header(); ?>
 
 			<p><?php the_content(); ?></p>
 
+			<hr>
+
 		<?php endwhile;
 
 	endif;
 
 	?>
+
+<?php get_footer(); ?>
