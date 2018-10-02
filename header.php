@@ -53,17 +53,14 @@
 
                     <div class="search-form-container">
                         
-                        <?php get_search_form() ?>
+                        <div class="container">
+                            <?php get_search_form() ?>
+                        </div>
                     </div>
                 </div> 
 
         </div>
-<<<<<<< HEAD
+
     </div> 
-<<<<<<< HEAD
+
     
-=======
-    <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?> alt="" />
->>>>>>> parent of bb2216a... połowa live strem 3
-=======
->>>>>>> parent of e339d4d... Revert "połowa live strem 3"

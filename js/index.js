@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-//javascript functions
-=======
 jQuery(document).ready(function($) {
 
     $(document).on('click','.open-search a', function(e) {
@@ -10,4 +7,3 @@ jQuery(document).ready(function($) {
     });
 
 });
->>>>>>> parent of e339d4d... Revert "połowa live strem 3"
