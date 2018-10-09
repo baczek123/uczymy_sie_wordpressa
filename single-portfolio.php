@@ -30,14 +30,6 @@
                         <div class="col-xs-6 text-left"><?php previous_post_link() ?></div>
                         <div class="col-xs-6 text-rigth"><?php next_post_link() ?></div>
 
-                        <?php
-                            if(comments_open() ){
-                                comments_template(); 
-                            }
-                            else {
-                            echo '<h5 class="text-center">Przepraszamy, Komentarze są wyłączone!</h5>';
-                            }      
-                        ?>
                     </div>
                 </article> 
 
